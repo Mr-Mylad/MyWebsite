@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do list | Mr. Mylad</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <head>
+        <h1>To Do list</h1>
+        <a href="#Bottom" class="UpDown" id="Top">Go to bottom</a>
+        <br><br>
+        <div id="List"></div>
+        <span>
+            <input id="UserInput" placeholder="What to do."></input>
+            <button id="Enter">Add to list</button>
+        </span>
+        <br>
+        <span>
+            <button id="Done">Remove from list</button>
+        </span>
+        <br>
+        <span>
+            <button onclick="Save()">Get to-do code</button>
+            <button onclick="Load('User')">Load to-do code</button>
+        </span>
+        <br>
+        <button onclick="Refresh()">Clear everything</button>
+        <br>
+        <a class="UpDown" href="#Top" id="Bottom">Go to top</a>
+    </head>
+</html>
+
+<script src="script.js"></script>
