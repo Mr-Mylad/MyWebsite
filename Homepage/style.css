@@ -1,17 +1,37 @@
+/* Fonts */
+/* Roboto: To use, font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
+    text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to top right, black, grey);
+    background-image: linear-gradient(to bottom left, orange, darkred);
     color: white;
 }
+
+hr {
+    background-color: blue;
+    color: blue;
+}
+
 #Menu {
     text-align: right;
-    background-color: black;
-    vertical-align: top;
+    background-color: forestgreen;
     margin: 0;
     padding: 0;
 }
 
 .MenuButtons {
     display: inline;
+    font-size: 30px;
+}
+
+.Text {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Left {
+    text-align: left;
 }
