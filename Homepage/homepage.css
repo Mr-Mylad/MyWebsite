@@ -1,0 +1,17 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top right, black, grey);
+    color: white;
+}
+#Menu {
+    text-align: right;
+    background-color: black;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuButtons {
+    display: inline;
+}
