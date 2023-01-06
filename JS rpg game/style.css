@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#Black {
+    background-color: black;
+    color: white;
+}
+
+#White {
+    background-color: white;
+    color: black;
+}
+
+.SystemResponse {
+    color: red;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#UserInput {
+    margin-right: 15px;
+}
+
+#ColorModeButton {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

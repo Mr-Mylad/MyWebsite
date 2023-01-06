@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Main head elements-->
+    <title>JS game</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Other gibberish head elements-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="ChatList">
+        <!--Chat responses go here-->
+    </div>
+    <span>
+        <!--Inputs (Typed)-->
+        <input id="UserInput" class="Inputs">
+        <button id="SendInput" class="Inputs">Send</button>
+        <br class="Inputs">
+        <!--Options (Picked)-->
+        <label for="UserOptions" class="Options">Pick an option</label>
+        <select id="UserOptions" class="Options"></select>
+        <button id="SendOption" class="Options">Send</button>
+    </span>
+    <br>
+    <button onclick="ColorMode()" id="ColorModeButton">Dark mode</button>
+</body>
+</html>
+<script src="script.js"></script>
