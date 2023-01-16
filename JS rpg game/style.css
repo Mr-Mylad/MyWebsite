@@ -27,3 +27,7 @@ html {
     bottom: 0;
     left: 0;
 }
+
+.Invisible {
+    display: none;
+}
