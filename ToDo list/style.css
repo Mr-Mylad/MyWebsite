@@ -4,3 +4,7 @@
 .Invisible {
     visibility: hidden;
 }
+
+body {
+    background-color: white;
+}
