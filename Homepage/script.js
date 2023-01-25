@@ -12,3 +12,15 @@ function ItIsMe() {
         alert('Hi! It\'s me!');
     }
 }
+
+function Twitter() {
+    open('https://www.twitter.com/@RealMrMylad')
+}
+
+function Youtube() {
+    open('https://www.youtube.com/@MrMylad')
+}
+
+function Itch() {
+    open('https://mylad.itch.io')
+}
