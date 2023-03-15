@@ -78,7 +78,7 @@ async function Chat() {
             Starting = 'Tutorial';
         } else {
             MakeReply(`${Name}`, 'No thanks, I\m good.', 0);
-            Starting = 'Started'
+            Starting = 'Started';
         }
     }
     else {
