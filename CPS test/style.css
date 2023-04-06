@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+#ClickArea {
+    text-align: center;
+    vertical-align: middle;
+    border: 5px black solid;
+    border-radius: 0%;
+    background-color: grey;
+    padding: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
