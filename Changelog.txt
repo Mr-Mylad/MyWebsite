@@ -1,0 +1,7 @@
+CHANGES
+
+From 09/04/2023
+
+v22
+Changed the background and overall color tone of the website
+Made the navbar work a bit better
