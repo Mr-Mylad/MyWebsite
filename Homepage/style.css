@@ -1,6 +1,6 @@
 /* Fonts */
 /* Roboto: To use, font-family: 'Roboto', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 html {
     scroll-behavior: smooth;
@@ -10,7 +10,7 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom left, orange, darkred);
+    background-image: linear-gradient(to bottom left, #352D2D, #141313);
     color: white;
 }
 
@@ -19,7 +19,7 @@ hr {
 }
 
 .Text {
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -29,7 +29,7 @@ hr {
 
 #Menu {
     text-align: right;
-    background-color: rgb(31, 26, 26);
+    background-color: white;
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 0;
@@ -42,8 +42,10 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
     list-style-type: none;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid black;
     margin-left: -2px;
+    background-color: black;
+    border-radius: 15px;
 }
 
 .MenuAnchors {
